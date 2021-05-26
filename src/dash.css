@@ -1,0 +1,42 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    padding: 90px 0 0;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh !important;
+    width: 100vw;
+    margin-left: -1rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+}
+
+.sidelink {
+    padding: 15px;
+    font-size: 21px;
+    text-decoration: navajowhite;
+    color: #0a5e17;
+    display: block;
+}
+
+.sidelink a:hover {
+    color: #182019;
+    font-size: 22px;
+    font-weight: 600;
+}

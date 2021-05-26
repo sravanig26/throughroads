@@ -1,0 +1,108 @@
+.navOuter {
+    background-color: #6de3b7;
+    padding: 15px;
+}
+
+.navInner {
+    width: 100%;
+    text-align: right;
+}
+
+.roadlogo {
+    width: 150px;
+    float: left;
+}
+
+.nav1 {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 10px;
+    color: #393131;
+}
+
+.homeRoad {
+    background-image: url('images/road.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+
+.homecon {
+    display: grid;
+}
+
+.titleh1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #55d5d5;
+}
+
+.titlepara {
+    text-align: center;
+    font-size: 2em;
+    color: #ccc;
+}
+
+.titlelabel {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.centerDiv {
+    padding: 20px;
+    background-color: #ffffff;
+    height: 400px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0%;
+    top: 40%;
+}
+
+.centerRow {
+    text-align: center;
+    position: relative;
+    top: 32%;
+}
+
+.paraTitle {
+    margin-top: 50px;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.admindash {
+    border: 2px solid cornflowerblue;
+    padding: 10px;
+    font-size: 34px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 8px;
+}
+
+.admindash:hover {
+    cursor: pointer;
+}
+
+.addrouteimg {
+    background-image: url('images/attachment.jpg');
+    height: 90vh;
+}
+
+.spantitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.spanless {
+    font-size: 18px;
+}
+
+.taball {
+    align-items:flex-start
+}
